@@ -2,7 +2,6 @@ package proj
 
 import (
 	"fmt"
-	"gonum.org/v1/gonum/floats/scalar"
 	"math"
 	"reflect"
 	"strings"
@@ -101,6 +100,8 @@ func equal(v1, v2 reflect.Value, ulp uint) bool {
 		f1 := v1.Field(i)
 		f2 := v2.Field(i)
 		ft := f1.Type().Kind()
+		tol := math.Pow(0.1, float64(ulp))
+
 		switch ft {
 		case reflect.Float64:
 			fv1 := f1.Float()
@@ -108,7 +109,7 @@ func equal(v1, v2 reflect.Value, ulp uint) bool {
 			if math.IsNaN(fv1) != math.IsNaN(fv2) {
 				return false
 			}
-			if !math.IsNaN(fv1) && !scalar.EqualWithinULP(fv1, fv2, ulp) {
+			if !math.IsNaN(fv1) && math.Abs(fv1-fv2) >= tol {
 				return false
 			}
 		case reflect.Int:
@@ -129,7 +130,7 @@ func equal(v1, v2 reflect.Value, ulp uint) bool {
 			}
 		case reflect.Slice:
 			for i := 0; i < f1.Len(); i++ {
-				if !scalar.EqualWithinULP(f1.Index(i).Float(), f2.Index(i).Float(), ulp) {
+				if math.Abs(f1.Index(i).Float()-f2.Index(i).Float()) >= tol {
 					return false
 				}
 			}
