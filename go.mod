@@ -1,4 +1,4 @@
-module github.com/ctessum/geom
+module github.com/fernando-maureira/geom
 
 require (
 	github.com/ctessum/polyclip-go v1.1.0
