@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ctessum/geom"
+	"github.com/fernando-maureira/geom"
 )
 
 func TestEncoder_polygon(t *testing.T) {

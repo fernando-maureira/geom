@@ -1,9 +1,10 @@
 package wkt
 
 import (
-	"github.com/ctessum/geom"
 	"reflect"
 	"testing"
+
+	"github.com/fernando-maureira/geom"
 )
 
 func TestWKT(t *testing.T) {

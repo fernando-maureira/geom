@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ctessum/geom"
+	"github.com/fernando-maureira/geom"
 )
 
 // This example shows how to read in information from a shapefile, write

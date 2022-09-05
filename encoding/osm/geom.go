@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ctessum/geom"
-	"github.com/ctessum/geom/op"
+	"github.com/fernando-maureira/geom"
+	"github.com/fernando-maureira/geom/op"
 	"github.com/paulmach/osm"
 )
 

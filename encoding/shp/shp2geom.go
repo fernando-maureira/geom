@@ -5,8 +5,8 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/ctessum/geom"
-	"github.com/ctessum/geom/op"
+	"github.com/fernando-maureira/geom"
+	"github.com/fernando-maureira/geom/op"
 	"github.com/jonas-p/go-shp"
 )
 

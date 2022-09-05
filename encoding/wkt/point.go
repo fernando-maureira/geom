@@ -1,8 +1,9 @@
 package wkt
 
 import (
-	"github.com/ctessum/geom"
 	"strconv"
+
+	"github.com/fernando-maureira/geom"
 )
 
 func appendPointCoords(dst []byte, point *geom.Point) []byte {

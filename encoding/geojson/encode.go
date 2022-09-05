@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"reflect"
 
-	"github.com/ctessum/geom"
+	"github.com/fernando-maureira/geom"
 )
 
 func pointCoordinates(point geom.Point) []float64 {

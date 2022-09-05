@@ -10,7 +10,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/ctessum/geom"
+	"github.com/fernando-maureira/geom"
 )
 
 // Rtree represents an R-tree, a balanced search tree for storing and querying

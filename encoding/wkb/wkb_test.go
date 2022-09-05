@@ -1,9 +1,10 @@
 package wkb
 
 import (
-	"github.com/ctessum/geom"
 	"reflect"
 	"testing"
+
+	"github.com/fernando-maureira/geom"
 )
 
 func TestWKB(t *testing.T) {

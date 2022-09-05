@@ -1,7 +1,7 @@
 package geom
 
 import (
-	"github.com/ctessum/geom/proj"
+	"github.com/fernando-maureira/geom/proj"
 )
 
 // Transform shifts the coordinates of p according to t.

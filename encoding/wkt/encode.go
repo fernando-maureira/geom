@@ -1,8 +1,9 @@
 package wkt
 
 import (
-	"github.com/ctessum/geom"
 	"reflect"
+
+	"github.com/fernando-maureira/geom"
 )
 
 func Encode(g geom.Geom) ([]byte, error) {

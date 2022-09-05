@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/ctessum/geom"
+	"github.com/fernando-maureira/geom"
 )
 
 var cases = []struct {

@@ -1,9 +1,10 @@
 package hex
 
 import (
-	"github.com/ctessum/geom"
-	"github.com/ctessum/geom/encoding/wkb"
 	"testing"
+
+	"github.com/fernando-maureira/geom"
+	"github.com/fernando-maureira/geom/encoding/wkb"
 )
 
 func Test(t *testing.T) {

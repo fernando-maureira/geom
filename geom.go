@@ -3,7 +3,7 @@ Package geom holds geometry objects and functions to operate on them.
 They can be encoded and decoded by other packages in this repository.*/
 package geom
 
-import "github.com/ctessum/geom/proj"
+import proj "github.com/fernando-maureira/geom/proj"
 
 // Geom is an interface for generic geometry types.
 type Geom interface {

@@ -2,8 +2,9 @@ package wkb
 
 import (
 	"encoding/binary"
-	"github.com/ctessum/geom"
 	"io"
+
+	"github.com/fernando-maureira/geom"
 )
 
 func multiPolygonReader(r io.Reader, byteOrder binary.ByteOrder) (geom.Geom, error) {

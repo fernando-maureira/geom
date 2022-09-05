@@ -3,7 +3,7 @@ package osm
 import (
 	"fmt"
 
-	"github.com/ctessum/geom"
+	"github.com/fernando-maureira/geom"
 	"github.com/paulmach/osm"
 )
 

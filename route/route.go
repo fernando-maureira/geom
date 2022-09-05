@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ctessum/geom"
-	"github.com/ctessum/geom/index/rtree"
-	"github.com/ctessum/geom/op"
+	"github.com/fernando-maureira/geom"
+	"github.com/fernando-maureira/geom/index/rtree"
+	"github.com/fernando-maureira/geom/op"
 	"gonum.org/v1/gonum/graph"
 	"gonum.org/v1/gonum/graph/iterator"
 	"gonum.org/v1/gonum/graph/path"

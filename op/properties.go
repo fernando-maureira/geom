@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ctessum/geom"
+	"github.com/fernando-maureira/geom"
 )
 
 const tolerance = 1.e-9
